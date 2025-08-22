@@ -71,10 +71,14 @@ sequenceDiagram
 
 ## 4) Liveness y verificación: qué mide cada marco
 
-- **ISO/IEC 30107‑3 (PAD)**: metodología de pruebas de **ataques de presentación** y métricas **APCER/BPCER**. 🔗 Enlace: https://www.iso.org/standard/67381.html
-- **NIST FRTE/FRVT**: precisión de verificación 1:1 (tasas **FMR/FNMR**) y curvas DET/ROC. 🔗 Enlace: https://pages.nist.gov/frvt/
-- **NISTIR 8491 (FATE PAD)**: desempeño de **PAD pasivo** (software‑only) frente a múltiples PAIs. Enlace: https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8491.pdf
-- **FIDO Biometric Certification (v4.x)**: requisitos y pruebas de liveness/biometría en laboratorios acreditados. 🔗 Enlace: https://fidoalliance.org/certification/biometric-certification/
+- **ISO/IEC 30107‑3 (PAD)**: metodología de pruebas de **ataques de presentación** y métricas **APCER/BPCER**. <br>
+  🔗 Enlace: https://www.iso.org/standard/67381.html
+- **NIST FRTE/FRVT**: precisión de verificación 1:1 (tasas **FMR/FNMR**) y curvas DET/ROC. <br>
+  🔗 Enlace: https://pages.nist.gov/frvt/
+- **NISTIR 8491 (FATE PAD)**: desempeño de **PAD pasivo** (software‑only) frente a múltiples PAIs. <br>
+  🔗 Enlace: https://nvlpubs.nist.gov/nistpubs/ir/2023/NIST.IR.8491.pdf
+- **FIDO Biometric Certification (v4.x)**: requisitos y pruebas de liveness/biometría en laboratorios acreditados. <br>
+  🔗 Enlace: https://fidoalliance.org/certification/biometric-certification/
 
 ---
 
@@ -673,3 +677,4 @@ J --> K{Evadir Liveness?}
 K -- Sí --> L[✅ Cuenta Comprometida]
 K -- No --> M[❌ Ataque Fallido]
 ```
+
